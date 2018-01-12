@@ -14,7 +14,7 @@
               "ssm:GetParameters"
           ],
           "Resource": [
-              "arn:aws:ssm:<region>:<account-id>:parameter/<service-name>/*"
+              "arn:aws:ssm:<region>:<account-id>:parameter/<service-name>"
           ]
       },
       {
